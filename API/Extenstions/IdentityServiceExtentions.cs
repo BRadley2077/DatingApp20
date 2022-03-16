@@ -23,7 +23,7 @@ namespace API.Extenstions
                 opt.Password.RequireDigit = false;
                 opt.Password.RequireLowercase = true;
                 opt.Password.RequireUppercase = false;
-                opt.Password.RequiredLength = 8;
+                opt.Password.RequiredLength = 1;
                 opt.Password.RequiredUniqueChars = 0;
             })
                 .AddRoles<AppRole>()
